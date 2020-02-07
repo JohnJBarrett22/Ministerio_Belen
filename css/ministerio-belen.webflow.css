@@ -61,3 +61,33 @@
   display: flex;
   width: 70%;
 }
+
+.paragraph {
+  text-align: left;
+}
+
+._4_block_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.heading-2 {
+  text-align: center;
+}
+
+._4_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  background-color: #1d9fee;
+}
+
+._2_block {
+  display: inline-block;
+  width: 50%;
+}
