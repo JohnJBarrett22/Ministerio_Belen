@@ -18,12 +18,16 @@
   background-color: #19229a;
 }
 
-.nav-link {
+.header_link {
+  margin-right: 7px;
+  margin-left: 7px;
+  padding-right: 20px;
   color: #fff;
 }
 
 .nav-link-2 {
   color: #fff;
+  font-style: normal;
 }
 
 .italic-text {
@@ -90,4 +94,32 @@
 ._2_block {
   display: inline-block;
   width: 50%;
+}
+
+.nav-menu {
+  position: static;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  text-align: center;
+}
+
+.brand {
+  display: inline-block;
+}
+
+.text-block {
+  text-align: center;
+}
+
+.slide {
+  background-image: url('../images/service.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider {
+  height: 80vh;
 }
