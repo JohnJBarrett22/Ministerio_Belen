@@ -1,3 +1,15 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
 .main_container {
   width: 1100px;
   margin-right: auto;
@@ -94,6 +106,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 25%;
+  padding: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -240,19 +253,25 @@
 }
 
 .heading-3 {
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
+  color: #fff;
   text-align: left;
 }
 
 .heading-4 {
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
+  color: #fff;
 }
 
 .heading-5 {
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
+  color: #fff;
 }
 
 .div-block-3 {
@@ -267,6 +286,73 @@
 
 .heading-6 {
   color: #fff;
+}
+
+.paragraph-2 {
+  color: #fff;
+}
+
+.text-block-2 {
+  margin-top: 0px;
+  padding-top: 15px;
+  color: #fff;
+}
+
+.grid {
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link.w--current {
+  color: #fff;
+}
+
+.footer_link {
+  color: #fff;
+}
+
+.link-2 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-3 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-4 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-5 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-6 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-7 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.list-item {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-8 {
+  color: #fff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
