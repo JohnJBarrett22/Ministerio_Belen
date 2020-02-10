@@ -80,6 +80,10 @@
   width: 100%;
 }
 
+.footer_top {
+  text-align: center;
+}
+
 .heading-2 {
   text-align: center;
 }
@@ -90,7 +94,13 @@
   display: -ms-flexbox;
   display: flex;
   width: 25%;
-  background-color: #1d9fee;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: transparent;
+  text-align: left;
 }
 
 ._2_block {
@@ -224,14 +234,49 @@
   background-color: #5170b6;
 }
 
-@media (max-width: 991px) {
+.image {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-3 {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.heading-4 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-5 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-3 {
+  padding: 100px;
+  background-image: url('../images/service.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.heading-6 {
+  color: #fff;
+}
+
+@media screen and (max-width: 991px) {
   .footer-2 {
     padding-right: 20px;
     padding-left: 20px;
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .footer-2 {
     padding: 40px 20px;
   }
@@ -241,7 +286,7 @@
   }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .footer-2 {
     padding-right: 20px;
     padding-left: 20px;
