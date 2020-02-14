@@ -371,9 +371,10 @@
 }
 
 .slide-2 {
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
-  background-position: 0px 0px;
-  background-size: 125px;
+  background-image: url('../images/men-meeting.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .heading-7 {
