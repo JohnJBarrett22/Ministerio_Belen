@@ -24,7 +24,7 @@
 }
 
 .footer {
-  background-color: #5170b6;
+  background-color: #120b34;
 }
 
 .navbar {
@@ -122,7 +122,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 225px;
+  margin-top: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -444,8 +444,9 @@
   line-height: 1.8em;
 }
 
-.button {
+.mb_button {
   margin-left: 100px;
+  background-color: #3c86e5;
 }
 
 .heading-9 {
@@ -453,10 +454,10 @@
   text-align: center;
 }
 
-.section {
-  height: 100vh;
-  padding-top: 75px;
-  padding-bottom: 75px;
+.explore_section {
+  height: auto;
+  padding-top: 125px;
+  padding-bottom: 125px;
   background-color: #f3f3f3;
   color: #f3f3f3;
 }
@@ -476,15 +477,118 @@
   color: #000;
 }
 
-.heading-10 {
+.card_h3 {
+  font-family: Gayathri, sans-serif;
   color: #000;
+  font-size: 36px;
+  line-height: 1.3em;
 }
 
 .cta_section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 600px;
-  background-image: url('../images/men-meeting.jpg');
-  background-position: 0px 0px;
+  background-image: url('../images/men-praise.jpg');
+  background-position: 50% 50%;
   background-size: cover;
+}
+
+.image_block {
+  height: 345px;
+  background-image: url('../images/men-meeting.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.heading-11 {
+  display: block;
+  font-family: Gayathri, sans-serif;
+  color: #fff;
+  font-size: 55px;
+  line-height: 1.1em;
+  text-align: center;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.button-2 {
+  display: block;
+}
+
+.blog_section {
+  height: 100vh;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background-color: #f3f3f3;
+}
+
+.events_section {
+  height: 100vh;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background-color: #f3f3f3;
+}
+
+.section_h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Gayathri, sans-serif;
+  font-size: 42px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.mini_divide {
+  width: 5%;
+  height: 1px;
+  margin: 25px auto;
+  border: 1px solid #3c86e5;
+  text-align: left;
+}
+
+.section-2 {
+  height: 100vh;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+.intro_section {
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+.image-2 {
+  height: 345px;
+}
+
+.button-3 {
+  background-color: #3c86e5;
+}
+
+.card_bottom {
+  padding: 50px;
 }
 
 @media screen and (max-width: 991px) {
