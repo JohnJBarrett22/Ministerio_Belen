@@ -24,6 +24,9 @@
 }
 
 .footer {
+  margin-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #120b34;
 }
 
@@ -95,6 +98,12 @@
 
 .footer_top {
   text-align: center;
+}
+
+.footer_container {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .heading-2 {
@@ -445,12 +454,14 @@
 }
 
 .mb_button {
-  margin-left: 100px;
+  margin-left: 0px;
   background-color: #3c86e5;
 }
 
 .heading-9 {
   font-family: Gayathri, sans-serif;
+  font-size: 42px;
+  line-height: 1.4em;
   text-align: center;
 }
 
@@ -495,11 +506,12 @@
   background-size: cover;
 }
 
-.image_block {
+.img_block_about_us {
   height: 345px;
   background-image: url('../images/men-meeting.jpg');
   background-position: 50% 50%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .heading-11 {
@@ -538,7 +550,7 @@
 }
 
 .blog_section {
-  height: 100vh;
+  height: auto;
   padding-top: 125px;
   padding-bottom: 125px;
   background-color: #f3f3f3;
@@ -569,7 +581,7 @@
 }
 
 .section-2 {
-  height: 100vh;
+  height: auto;
   padding-top: 125px;
   padding-bottom: 125px;
 }
@@ -589,6 +601,33 @@
 
 .card_bottom {
   padding: 50px;
+}
+
+.img_block_our_missions {
+  height: 345px;
+  background-image: url('../images/men-gathering.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-2 {
+  margin-bottom: 50px;
+  padding-top: 0px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.mb_button-copy {
+  margin-left: 100px;
+  background-color: #3c86e5;
+}
+
+.mb_button_margin {
+  margin-left: 100px;
+  background-color: #3c86e5;
 }
 
 @media screen and (max-width: 991px) {
