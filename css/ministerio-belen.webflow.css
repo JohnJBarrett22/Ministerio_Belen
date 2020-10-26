@@ -616,6 +616,17 @@
   border-right: 1px solid #f3f3f3;
 }
 
+@media screen and (max-width: 991px) {
+  .main_container {
+    width: auto;
+    max-width: 1200px;
+  }
+  .main_container_ctr {
+    width: auto;
+    max-width: 1200px;
+  }
+}
+
 @font-face {
   font-family: 'Fa brands 400';
   src: url('../fonts/fa-brands-400.woff2') format('woff2'), url('../fonts/fa-brands-400.eot') format('embedded-opentype'), url('../fonts/fa-brands-400.woff') format('woff'), url('../fonts/fa-brands-400.ttf') format('truetype');
