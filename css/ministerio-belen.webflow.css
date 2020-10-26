@@ -97,10 +97,10 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 ._2_block {
@@ -218,11 +218,12 @@
   grid-template-rows: auto;
 }
 
-.link {
+.footer_link {
+  color: #fff;
   text-decoration: none;
 }
 
-.link.w--current {
+.footer_link.w--current {
   color: #fff;
 }
 
@@ -308,6 +309,7 @@
 }
 
 .hero_para {
+  margin-bottom: 25px;
   padding-left: 100px;
   color: #fff;
   font-size: 17px;
@@ -317,7 +319,7 @@
 .mb_button {
   display: block;
   margin-left: 0px;
-  padding: 24px 47px 18px;
+  padding: 20px 47px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -467,7 +469,7 @@
 
 .mb_button_margin {
   margin-left: 100px;
-  padding: 24px 47px 18px;
+  padding: 20px 47px;
   border-radius: 50px;
   background-color: #3c86e5;
   font-weight: 700;
@@ -569,7 +571,7 @@
 
 .column {
   padding-left: 40px;
-  border-left: 1px solid #f3f3f3;
+  border-left: 1px none #f3f3f3;
 }
 
 ._75_block {
@@ -604,6 +606,14 @@
 .link-14 {
   color: #fff;
   text-decoration: none;
+}
+
+.columns {
+  width: 100%;
+}
+
+.column-2 {
+  border-right: 1px solid #f3f3f3;
 }
 
 @font-face {
