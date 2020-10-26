@@ -36,7 +36,7 @@
 .footer {
   margin-bottom: 0px;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 25px;
   background-color: #120b34;
 }
 
@@ -290,15 +290,14 @@
 }
 
 .divide {
-  width: 95%;
+  width: 100%;
   height: 1px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 21px auto;
   border: 1px solid #fff;
   text-align: left;
 }
 
-.heading-8 {
+.hero_h1 {
   margin-top: 234px;
   padding-left: 100px;
   font-family: Gayathri, sans-serif;
@@ -308,7 +307,7 @@
   font-weight: 700;
 }
 
-.paragraph-4 {
+.hero_para {
   padding-left: 100px;
   color: #fff;
   font-size: 17px;
@@ -333,13 +332,6 @@
   text-align: center;
 }
 
-.heading-9 {
-  font-family: Gayathri, sans-serif;
-  font-size: 42px;
-  line-height: 1.4em;
-  text-align: center;
-}
-
 .explore_section {
   height: auto;
   padding-top: 125px;
@@ -348,18 +340,7 @@
   color: #f3f3f3;
 }
 
-._2_block_card {
-  width: 40%;
-  margin-right: 15px;
-  margin-left: 15px;
-  background-color: #fff;
-}
-
-.paragraph-5 {
-  color: #000;
-}
-
-.paragraph-6 {
+.card_para {
   color: #000;
 }
 
@@ -440,7 +421,7 @@
   font-family: Gayathri, sans-serif;
   font-size: 42px;
   line-height: 1.4em;
-  text-align: left;
+  text-align: center;
 }
 
 .mini_divide {
@@ -464,6 +445,7 @@
 
 .card_bottom {
   padding: 50px;
+  background-color: #fff;
 }
 
 .img_block_our_missions {
@@ -518,7 +500,7 @@
   align-items: center;
 }
 
-.image-2 {
+.icon_img {
   height: 135px;
   margin-right: auto;
   margin-left: auto;
@@ -540,15 +522,7 @@
   align-items: center;
 }
 
-.paragraph-7 {
-  text-align: center;
-}
-
-.paragraph-8 {
-  text-align: center;
-}
-
-.paragraph-9 {
+.icon_para {
   text-align: center;
 }
 
@@ -556,7 +530,100 @@
   margin-bottom: 15px;
 }
 
-.list-item-3 {
-  margin-bottom: 0px;
+._2_link_block {
+  width: 40%;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-decoration: none;
 }
 
+.visit_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.visit_icon {
+  height: 25px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.image-3 {
+  height: 25px;
+  margin-right: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.visit_h6 {
+  font-family: Gayathri, sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.column {
+  padding-left: 40px;
+  border-left: 1px solid #f3f3f3;
+}
+
+._75_block {
+  width: 75%;
+}
+
+._25_block {
+  width: 25%;
+}
+
+.paragraph-3 {
+  color: #fff;
+}
+
+.paragraph-4 {
+  font-family: 'Fa brands 400', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-align: right;
+}
+
+.link-12 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-13 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-14 {
+  color: #fff;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Fa brands 400';
+  src: url('../fonts/fa-brands-400.woff2') format('woff2'), url('../fonts/fa-brands-400.eot') format('embedded-opentype'), url('../fonts/fa-brands-400.woff') format('woff'), url('../fonts/fa-brands-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fa 400';
+  src: url('../fonts/fa-regular-400.woff2') format('woff2'), url('../fonts/fa-regular-400.eot') format('embedded-opentype'), url('../fonts/fa-regular-400.woff') format('woff'), url('../fonts/fa-regular-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fa solid 900';
+  src: url('../fonts/fa-solid-900.woff2') format('woff2'), url('../fonts/fa-solid-900.eot') format('embedded-opentype'), url('../fonts/fa-solid-900.woff') format('woff'), url('../fonts/fa-solid-900.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
