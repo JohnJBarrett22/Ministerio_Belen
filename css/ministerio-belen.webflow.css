@@ -41,6 +41,12 @@
 }
 
 .navbar {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: none none solid;
+  border-width: 1.5px;
+  border-color: #fff;
   background-color: transparent;
 }
 
@@ -291,6 +297,7 @@
 }
 
 .hero_section {
+  position: static;
   height: 100vh;
 }
 
@@ -479,7 +486,7 @@
 }
 
 .mini_divide_left {
-  width: 5%;
+  width: 10%;
   height: 1px;
   margin: 25px 0px;
   border: 1px solid #3c86e5;
