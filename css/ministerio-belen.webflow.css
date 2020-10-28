@@ -798,6 +798,7 @@
   }
 
   .hero_h1 {
+    margin-top: 210px;
     font-size: 58px;
   }
 
@@ -896,7 +897,12 @@
   }
 
   .hero_h1 {
+    padding-left: 40px;
     font-size: 40px;
+  }
+
+  .hero_para {
+    padding-left: 40px;
   }
 
   .card_h3 {
@@ -912,6 +918,10 @@
     font-size: 34px;
   }
 
+  .card_bottom {
+    margin-bottom: 0px;
+  }
+
   .grid-2 {
     grid-row-gap: 16px;
     grid-template-areas: "Area Area";
@@ -921,12 +931,17 @@
     grid-template-rows: auto auto auto;
   }
 
+  .mb_button_margin {
+    margin-left: 40px;
+  }
+
   .main_container_ctr {
     width: 90%;
   }
 
   ._2_link_block {
     width: 90%;
+    margin-bottom: 25px;
   }
 
   .main_para {
@@ -977,6 +992,7 @@
   }
 
   .navbar {
+    z-index: 1;
     width: 95%;
     margin-right: auto;
     margin-left: auto;
@@ -1003,12 +1019,14 @@
   .divide {
     position: static;
     display: block;
+    width: 95%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 0px;
   }
 
   .hero_h1 {
+    margin-top: 190px;
     padding-left: 10px;
     font-size: 36px;
   }
@@ -1081,7 +1099,9 @@
   }
 
   ._2_link_block {
+    margin-right: 0px;
     margin-bottom: 25px;
+    margin-left: 0px;
   }
 
   .columns {
@@ -1110,6 +1130,22 @@
 
   .menu-button {
     background-color: transparent;
+  }
+
+  .menu-button.w--open {
+    background-color: #3c86e5;
+  }
+
+  .hero_image {
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-size: cover;
+  }
+
+  .hero_block {
+    height: 100vh;
   }
 }
 
