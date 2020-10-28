@@ -980,9 +980,7 @@
     width: 95%;
     margin-right: auto;
     margin-left: auto;
-    border-style: none none solid;
-    border-width: 1px;
-    border-color: #fff;
+    border: 1px none #fff;
   }
 
   ._2_block {
@@ -1063,7 +1061,7 @@
   }
 
   .card_bottom {
-    padding: 7px 0px;
+    padding: 7px 15px;
   }
 
   .img_block_our_missions {
