@@ -44,8 +44,8 @@
   width: 95%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: 1.5px none #fff;
   background-color: transparent;
 }
@@ -379,7 +379,7 @@
 .img_block_about_us {
   height: 345px;
   background-image: url('../images/men-meeting.jpg');
-  background-position: 50% 50%;
+  background-position: 50% 30%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -429,6 +429,10 @@
   padding-top: 125px;
   padding-bottom: 125px;
   background-color: #f3f3f3;
+  -webkit-transition: box-shadow 200ms ease-in, -webkit-transform 200ms ease-in;
+  transition: box-shadow 200ms ease-in, -webkit-transform 200ms ease-in;
+  transition: transform 200ms ease-in, box-shadow 200ms ease-in;
+  transition: transform 200ms ease-in, box-shadow 200ms ease-in, -webkit-transform 200ms ease-in;
 }
 
 .section_h2 {
@@ -460,6 +464,7 @@
 }
 
 .card_bottom {
+  height: 400px;
   padding: 50px;
   background-color: #fff;
 }
@@ -808,7 +813,7 @@
   display: -ms-flexbox;
   display: flex;
   height: 600px;
-  margin-top: 25px;
+  margin-top: 0px;
   margin-bottom: 25px;
   padding: 0px;
   -webkit-box-orient: vertical;
@@ -822,6 +827,8 @@
   align-items: flex-start;
   border: 1px none #000;
   background-color: #fff;
+  -webkit-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
 }
 
 .text-block-3 {
@@ -831,11 +838,38 @@
 
 .card_date {
   margin-bottom: 10px;
+  color: #333;
   font-weight: 700;
 }
 
 .collection-list-wrapper-2 {
+  margin-top: 25px;
   margin-bottom: 70px;
+}
+
+.cms_link_block {
+  color: #333;
+  text-decoration: none;
+}
+
+.cms_link_block:hover {
+  box-shadow: 1px 1px 7px 1px #000;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.collection-list-wrapper-3 {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.heading-13 {
+  text-align: center;
+}
+
+.div-block {
+  height: 85px;
 }
 
 @media screen and (max-width: 991px) {
