@@ -631,6 +631,10 @@
   border-right: 1px solid #f3f3f3;
 }
 
+.paragraph-6 {
+  margin-bottom: 25px;
+}
+
 .section_temp {
   height: 75vh;
 }
